@@ -12,12 +12,23 @@
       <span class="price">¥ 0</span>
     </div>
     <!-- 按钮 -->
-    <button type="button" class="footer-btn btn btn-primary">结算 ( 0 )</button>
+    <button type="button" class="footer-btn btn btn-primary">
+      结算 ({{ 111 }})
+    </button>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  props: {
+    objList: Array,
+  },
+  //   computed: {
+  //     getCount() {
+  //       return this.objList.reduce((c, obj) => (c += obj.goods_count), 1);
+  //     },
+  //   },
+};
 </script>
 
 <style lang="less" scoped>
