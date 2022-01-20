@@ -22,9 +22,6 @@
 import Count from "./Count.vue";
 export default {
   props: ["obj"],
-  created() {
-    console.log(this.obj);
-  },
   components: {
     Count,
   },
@@ -36,7 +33,6 @@ export default {
   display: flex;
   padding: 10px;
   border-bottom: 1px solid #ccc;
-  // margin: 43px 0 45px 0;
   .left {
     img {
       width: 120px;

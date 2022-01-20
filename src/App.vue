@@ -32,6 +32,6 @@ export default {
 
 <style scoped>
 .main {
-  padding: 45px 0 0 0;
+  padding: 45px 0 47px 0;
 }
 </style>
