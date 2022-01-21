@@ -26,7 +26,7 @@ export default {
     obj: {
       deep: true,
       handler() {
-        console.log(this.obj.goods_count);
+        // console.log(this.obj.goods_count);
         if (this.obj.goods_count <= 0) {
           return (this.obj.goods_count = 1);
         }
